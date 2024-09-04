@@ -1,0 +1,86 @@
+[
+  {
+    "Plot.plot({": "x: { label: \"Daily low temperature (°F) →"
+  },
+  {
+    "Plot.plot({": "y: { label: \"↑ Daily temperature variation (Δ°F)"
+  },
+  {
+    "Plot.plot({": "aspectRatio: 1"
+  },
+  {
+    "Plot.plot({": "color: {"
+  },
+  {
+    "Plot.plot({": "type: \"cyclical"
+  },
+  {
+    "Plot.plot({": "legend: true"
+  },
+  {
+    "Plot.plot({": "tickFormat: Plot.formatMonth()"
+  },
+  {
+    "Plot.plot({": "}"
+  },
+  {
+    "Plot.plot({": "marks: ["
+  },
+  {
+    "Plot.plot({": "Plot.ruleY([0])"
+  },
+  {
+    "Plot.plot({": "Plot.dot(temps"
+  },
+  {
+    "Plot.plot({": "fill: (d) => d.date.getUTCMonth()"
+  },
+  {
+    "Plot.plot({": "x: \"temp_min"
+  },
+  {
+    "Plot.plot({": "y: delta"
+  },
+  {
+    "Plot.plot({": "})"
+  },
+  {
+    "Plot.plot({": "Plot.dot(temps"
+  },
+  {
+    "Plot.plot({": "Plot.text("
+  },
+  {
+    "Plot.plot({": "temps"
+  },
+  {
+    "Plot.plot({": "Plot.selectMaxY({"
+  },
+  {
+    "Plot.plot({": "x: \"temp_min"
+  },
+  {
+    "Plot.plot({": "y: delta"
+  },
+  {
+    "Plot.plot({": "text: \"date"
+  },
+  {
+    "Plot.plot({": "lineAnchor: \"bottom"
+  },
+  {
+    "Plot.plot({": "dy: -10"
+  },
+  {
+    "Plot.plot({": "})"
+  },
+  {
+    "Plot.plot({": ")"
+  },
+  {
+    "Plot.plot({": "]"
+  },
+  {
+    "Plot.plot({": "})"
+  }
+]
